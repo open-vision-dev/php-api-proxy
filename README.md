@@ -9,7 +9,9 @@ then use this script to git scrape apis in real
 #Installation 
 <br />
 <code>
-git clone github.com/open-vision-dev/php-api-proxy  <br />
+git clone github.com/open-vision-dev/php-api-proxy  </code>
+<br />
+<code>
 composer install
 </code>
 <br />
@@ -24,10 +26,11 @@ script $this->secret variable you will get responses directly
 #### CURL POST EXAMPLE 
 
 [service api link]  = http://www.dream-server/magic/wood/jungle<br />
-[data] =  ['kitten' => 'sadasdasd' ,'food' => ['apple','orange','chicken']
-[your magic php-script url] = http://www.some.fancy.server.com 
+[data] =  ['kitten' => 'sadasdasd' ,'food' => ['apple','orange','chicken'] <br />
+[your magic php-script url] = http://www.some.fancy.server.com <br />
 
+<code>
 curl --data "kitten=sadsadsadad&food=['apple','orange','etc']&dest=www.dream-server/magic/wood/jungle/"   http://www.some.fancy.server.com 
-
+</code> <br />
 
   
