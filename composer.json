@@ -1,0 +1,16 @@
+{
+    "name": "open-vi/request-fwd",
+    "description": "a library to forward api requests to other remote server with basic authentincation",
+    "type": "library",
+    "require": {
+        "intervention/httpauth": "^3.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Ahmed A.F",
+            "email": "info@open-vision.me"
+        }
+    ],
+    "minimum-stability": "stable"
+}
