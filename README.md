@@ -15,7 +15,8 @@ composer install
 <br />
 ** Usage **
 
-you define your post/get you want to send via your tool/app/script-language of your choice then pass it additonal parameter called [dest] refers to destination
+you define your request method and pass your variables that you want to send via your <strong>tool|app|script-language</strong> of your choice then pass it additonal parameter variable  called <strong> dest 
+ </strong> which refers to destination url you are going to forward the request to
 if there is port plase bind in the address and don't type http or https by default it uses https http NONO then match your app basic auth credentials with
 script $this->secret variable you will get responses directly 
 
