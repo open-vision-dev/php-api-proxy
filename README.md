@@ -1,10 +1,18 @@
 
 request-fwd is php script used to forward you GET/POST request to any destination sever 
+
 usefull if you are testing on a remote server with sandbox or api that only accessible through it you setup a ssh/vpn link to your vm/cloud/deployment server
 then use this script to git scrape apis in real 
 
-it include basic authentication (credits to Intervention/HttpAuth)
-
+*it include basic authentication (credits to Intervention/HttpAuth)*
+<br />
+#Installation 
+<br />
+<code>
+git clone github.com/open-vision-dev/php-api-proxy 
+composer install
+</code>
+<br />
 ** Usage **
 
 you define your post/get you want to send via your tool/app/script-language of your choice then pass it additonal parameter called [dest] refers to destination
