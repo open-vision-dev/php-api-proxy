@@ -9,7 +9,7 @@ then use this script to git scrape apis in real
 #Installation 
 <br />
 <code>
-git clone github.com/open-vision-dev/php-api-proxy 
+git clone github.com/open-vision-dev/php-api-proxy  <br />
 composer install
 </code>
 <br />
